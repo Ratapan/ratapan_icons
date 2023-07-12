@@ -1,0 +1,24 @@
+:root{
+  --color-a: #a07250;
+  --color-b: #dca780;
+  --color-c: #e3c4ad; 
+  --back: #FFFCF4; 
+}
+html{
+    background-color: var(--back);
+}
+main{
+  display: flex;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  max-height: 30px;
+  max-width: 30px;
+
+  margin: 10px 0;
+}
